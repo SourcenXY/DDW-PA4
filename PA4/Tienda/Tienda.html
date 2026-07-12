@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA</title>
+    <link rel="stylesheet" href="../Css/Tienda.css">
+    <link rel="icon" href="../Css/img/tienda.svg" type="image/png">
+    <script src="../code/jquery_4_0_0_min.js"></script>
+    <script src="../code/Tienda.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>EPIC GAMES</h1>
+        </div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../Tienda/Tienda.html">Tienda</a>
+            <a href="../Biblioteca/Biblioteca.html">Biblioteca</a>
+            <a href="../Comunidad/Comunidad.html">Comunidad</a>
+            <a href="../Soporte/Soporte.html">Soporte</a>
+        </nav>
+        <div class="headerIcons">
+            <span><a href="../PerfilUsuario/Usuario.html">👤</a></span>
+        </div>
+    </header> 
+    <section class="s">
+        <div class="sT">
+            <h3>JUEGOS DESTACADOS</h3>
+        </div>
+        <div class="juegos">
+            <article class="juegosItems">
+                <div class="juegosImg gow4"></div>
+                <h4>Juego 1</h4>
+                <p>Kratos viaja a la mitología nórdica tras destruir Grecia. Su misión: cumplir el último deseo de su difunta esposa, Faye (Laufey), esparciendo sus cenizas desde el pico más alto de los Nueve Reinos, en compañía de su hijo Atreus.</p>
+                <p class="precio">USD 20</p>
+                <button class="buttoncomprar" data-juego="God of War" data-precio="USD 20">COMPRAR YA</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg cyberpunk777"></div>
+                <h4>Juego 2</h4>
+                <p>La trama se desarrolla en Night City, una megalópolis donde las personas sustituyen partes de su cuerpo por implantes tecnológicos, la corrupción impera y las megacorporaciones gobiernan todo.</p>
+                <p class="precio">USD 23</p>
+                <button class="buttoncomprar" data-juego="Cyberpunk 2077" data-precio="USD 23">COMPRAR YA</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg wukong"></div>
+                <h4>Juego 3</h4>
+                <p>El protagonista es El Predestinado, un mono antropomórfico cuya misión es recuperar seis reliquias en las que se dividió el espíritu de Sun Wukong tras su derrota, para lograr resucitar al legendario Rey Mono.</p>
+                <p class="precio">USD 25</p>
+                <button class="buttoncomprar" data-juego="Black Myth: Wukong" data-precio="USD 25">COMPRAR YA</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg hogwartLegacy"></div>
+                <h4>Juego 4</h4>
+                <p>El jugador asume el control de un estudiante de quinto año que posee una habilidad única: dominar la magia antigua, mientras se enfrenta a una rebelión de duendes liderada por Ranrok y magos oscuros como Victor Rookwood.</p>
+                <p class="precio">USD 15</p>
+                <button class="buttoncomprar" data-juego="Hogwarts Legacy" data-precio="USD 15">COMPRAR YA</button>
+            </article>
+        </div>
+    </section>
+    <section class="s">
+        <div class="sT">
+            <h3>OFERTAS ESPECIALES</h3>
+        </div>
+        <div class="ofertaBanner">
+            <div class="ofertaContenido">
+                <h2>REBAJAS DE VERANO 2026</h2>
+                <p>
+                Hasta un 75% de descuento en cientos de juegos por tiempo limitado.
+                </p>
+                <button id="btnOfertas">VER OFERTAS</button>
+                <div id="ofertas">
+                    <article class="ofertaCard">
+                        <div class="ofertaImg ac"></div>
+                        <h4>Assassin's Creed Shadows</h4>
+                        <p><del>USD 69.99</del></p>
+                        <p class="nuevoPrecio">USD 39.99 (-43%)</p>
+                    </article>
+                    <article class="ofertaCard">
+                        <div class="ofertaImg alan"></div>
+                        <h4>Alan Wake 2</h4>
+                        <p><del>USD 49.99</del></p>
+                        <p class="nuevoPrecio">USD 24.99 (-50%)</p>
+                    </article>
+                    <article class="ofertaCard">
+                        <div class="ofertaImg jedi"></div>
+                        <h4>Star Wars Jedi: Survivor</h4>
+                        <p><del>USD 59.99</del></p>
+                        <p class="nuevoPrecio">USD 29.99 (-50%)</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s">
+        <div class="sT">
+            <h3>JUEGOS GRATIS</h3>
+        </div>
+        <div class="regalos">
+            <article class="regalosItems">
+                <div class="regalosImg regalo1"></div>
+                <p>Juego gratis disponible a las 12:00 pm</p>
+            </article>
+            <article class="regalosItems">
+                <div class="regalosImg regalo2"></div>
+                <p>Juego gratis disponible a las 12:00 pm</p>
+            </article>
+        </div>
+    </section>
+    <section class="s">
+        <div class="sT">
+            <h3>PRÓXIMOS LANZAMIENTOS</h3>
+        </div>
+        <div class="juegos">
+            <article class="juegosItems">
+                <div class="juegosImg witcher4"></div>
+                <h4>The Witcher IV</h4>
+                <p>
+                    Continúa la saga con una nueva aventura de mundo abierto.
+                </p>
+                <p class="precio">
+                    Próximamente
+                </p>
+                <button class="btnDeseados">Agregar a deseados</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg resident"></div>
+                <h4>Resident Evil Requiem</h4>
+                <p>
+                    La nueva entrega de terror de Capcom, llega proximamente a la tienda.
+                </p>
+                <p class="precio">
+                    Próximamente
+                </p>
+                <button class="btnDeseados">Agregar a deseados</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg marvel1943"></div>
+                <h4>Marvel 1943</h4>
+                <p>
+                    Vive una aventura con Black Panther y Capitán América.
+                </p>
+                <p class="precio">
+                    Próximamente
+                </p>
+                <button class="btnDeseados">Agregar a deseados</button>
+            </article>
+            <article class="juegosItems">
+                <div class="juegosImg arcRaiders"></div>
+                <h4>ARC Raiders</h4>
+                <p>
+                    Shooter cooperativo de extracción ambientado en un futuro postapocalíptico.
+                </p>
+                <p class="precio">
+                    Próximamente
+                </p>
+                <button class="btnDeseados">Agregar a deseados</button>
+            </article>
+        </div>
+    </section>
+    <div id="confirmacionCompra">
+        <h3>Confirmar compra</h3>
+        <p id="nombreJuego"></p>
+        <p id="precioJuego"></p>
+        <button id="aceptarCompra">Comprar</button>
+        <button id="cancelarCompra">Cancelar</button>
+    </div>
+    <div id="mensajeDeseados">
+        ✔ Juego agregado a tu lista de deseados.
+    </div>
+    <footer>
+       <div class="final">
+            <p>
+                © 2026 Epic Games, Inc. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
