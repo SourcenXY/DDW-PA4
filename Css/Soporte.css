@@ -1,0 +1,535 @@
+/*====================================*/
+/* ESTILOS GENERALES */
+/*====================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background-color:#111111;
+
+    color:white;
+
+}
+
+h1,h2,h3,h4,h5{
+
+    font-weight:bold;
+
+}
+
+p{
+
+    color:#d4d4d4;
+
+    line-height:28px;
+
+}
+
+/*====================================*/
+/* NAVBAR */
+/*====================================*/
+
+.navbar{
+
+    background:#1c1f24 !important;
+
+    padding:18px 0;
+
+}
+
+.navbar-brand{
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:white !important;
+
+}
+
+.nav-link{
+
+    color:#cfcfcf !important;
+
+    margin-left:18px;
+
+    transition:0.4s;
+
+}
+
+.nav-link:hover{
+
+    color:white !important;
+
+}
+
+.nav-link.active{
+
+    color:white !important;
+
+    font-weight:bold;
+
+}
+
+/*====================================*/
+/* BANNER */
+/*====================================*/
+
+.banner{
+
+    background:#202020;
+
+    padding-top:100px;
+
+    padding-bottom:100px;
+
+}
+
+.banner h1{
+
+    color:white;
+
+    font-size:60px;
+
+    margin-bottom:25px;
+
+}
+
+.banner p{
+
+    text-align:center;
+
+    font-size:22px;
+
+    margin-bottom:40px;
+
+}
+
+/*====================================*/
+/* BUSCADOR */
+/*====================================*/
+
+.input-group{
+
+    width:75%;
+
+    margin:auto;
+
+}
+
+.input-group-text{
+
+    background:white;
+
+    border:none;
+
+}
+
+.form-control{
+
+    border:none;
+
+    padding:14px;
+
+}
+
+.btn-primary{
+
+    padding-left:25px;
+
+    padding-right:25px;
+
+}
+/*====================================*/
+/* CATEGORÍAS */
+/*====================================*/
+
+.container{
+
+    margin-top:60px;
+
+    margin-bottom:60px;
+
+}
+
+h2{
+
+    color:white;
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.card{
+
+    background:#1f1f1f;
+
+    border:none;
+
+    border-radius:12px;
+
+    transition:0.4s;
+
+    margin-bottom:30px;
+
+    color:white;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    background:#292929;
+
+}
+
+.card-body{
+
+    padding:30px;
+
+}
+
+.card i{
+
+    font-size:45px;
+
+    color:#0d6efd;
+
+    margin-bottom:20px;
+
+}
+
+.card-title{
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+.card-text{
+
+    color:#cfcfcf;
+
+    text-align:center;
+
+}
+
+.card .btn{
+
+    margin-top:10px;
+
+}
+
+/*====================================*/
+/* ESTADO DE SERVICIOS */
+/*====================================*/
+
+.badge{
+
+    padding:10px 15px;
+
+    font-size:15px;
+
+}
+
+.bg-success{
+
+    background:#198754 !important;
+
+}
+
+.bg-warning{
+
+    background:#ffc107 !important;
+
+}
+
+/*====================================*/
+/* ACCORDION */
+/*====================================*/
+
+.accordion{
+
+    margin-top:30px;
+
+}
+
+.accordion-item{
+
+    background:#1f1f1f;
+
+    border:1px solid #333;
+
+}
+
+.accordion-button{
+
+    background:#1f1f1f;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+.accordion-button:focus{
+
+    box-shadow:none;
+
+}
+
+.accordion-body{
+
+    background:#252525;
+
+    color:#d4d4d4;
+
+}
+
+/*====================================*/
+/* FORMULARIO */
+/*====================================*/
+
+form{
+
+    background:#1f1f1f;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,.5);
+
+}
+
+.form-label{
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.form-control,
+.form-select{
+
+    background:#2c2c2c;
+
+    color:white;
+
+    border:1px solid #444;
+
+}
+
+.form-control::placeholder{
+
+    color:#bdbdbd;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    background:#2c2c2c;
+
+    color:white;
+
+    border-color:#0d6efd;
+
+    box-shadow:none;
+
+}
+
+textarea{
+
+    resize:none;
+
+}
+
+/*====================================*/
+/* IMAGEN DEL FORMULARIO */
+/*====================================*/
+
+.img-fluid{
+
+    border-radius:12px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,.5);
+
+}
+
+/*====================================*/
+/* FOOTER */
+/*====================================*/
+
+footer{
+
+    background:#181818;
+
+    margin-top:80px;
+
+    padding-top:50px;
+
+}
+
+footer h4,
+footer h5{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+footer p{
+
+    color:#bdbdbd;
+
+    text-align:left;
+
+}
+
+footer ul{
+
+    padding-left:0;
+
+}
+
+footer li{
+
+    list-style:none;
+
+    margin-bottom:10px;
+
+}
+
+footer a{
+
+    color:#bdbdbd;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+footer a:hover{
+
+    color:white;
+
+}
+
+footer i{
+
+    font-size:28px;
+
+    margin-right:15px;
+
+}
+
+hr{
+
+    border-color:#444;
+
+}
+
+/*====================================*/
+/* BOTONES */
+/*====================================*/
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+/*====================================*/
+/* RESPONSIVE */
+/*====================================*/
+
+@media(max-width:991px){
+
+.banner{
+
+    padding:70px 20px;
+
+}
+
+.banner h1{
+
+    font-size:42px;
+
+}
+
+.input-group{
+
+    width:100%;
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+h2{
+
+    font-size:32px;
+
+}
+
+.card{
+
+    margin-bottom:20px;
+
+}
+
+footer{
+
+    text-align:center;
+
+}
+
+footer p{
+
+    text-align:center;
+
+}
+
+}
